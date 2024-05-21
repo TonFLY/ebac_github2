@@ -1,4 +1,4 @@
-o# Análise de Preços da Gasolina ⛽
+# Análise de Preços da Gasolina ⛽
 
 ## Visão Geral
 
