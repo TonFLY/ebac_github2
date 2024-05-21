@@ -26,4 +26,4 @@ O código Python responsável por gerar o gráfico está no arquivo `gasolina.py
 
 1. **Clone o Repositório:**
    ```bash
-   git clone [https://github.com/TonFLY/ebac_github2.git](https://github.com/TonFLY/ebac_github2.git)
+   git clone https://github.com/TonFLY/ebac_github2.git
