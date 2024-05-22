@@ -7,11 +7,11 @@ import seaborn as sns
 df = pd.read_csv('gasolina.csv')
 
 # Define o estilo visual do Seaborn
-sns.set_style("whitegrid")
+sns.set_style("darkgrid")
 
 # Cria o gráfico de linha com Seaborn
 plt.figure(figsize=(10, 6))  # Define o tamanho da figura
-sns.lineplot(x='dia', y='venda', data=df, marker='o')  # Cria o gráfico de linha com marcadores circulares
+sns.lineplot(x='dia', y='venda', data=df, marker='*')  # Cria o gráfico de linha com marcadores circulares
 plt.title('Preço da Gasolina por Dia', fontsize=14)  # Define o título do gráfico
 plt.xlabel('Dia', fontsize=12)  # Define o rótulo do eixo x
 plt.ylabel('Preço (R$)', fontsize=12)  # Define o rótulo do eixo y
@@ -24,3 +24,4 @@ plt.savefig('gasolina.png')
 
 # Mostra o gráfico na tela
 plt.show()
+    
